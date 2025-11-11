@@ -7,49 +7,53 @@
     <title>Contact</title>
 </head>
 
-<body>
-    <h2 style="text-align:center; margin-top:16px;">Contact</h2>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+</head>
 
-    <!-- Contact table (simple, no external CSS yet) -->
-    <table border="1" cellspacing="0" cellpadding="6" style="margin: 0 auto; width: 420px;">
+<body>
+    <h2>Contact</h2>
+
+    <table class="contact-card">
         <tr>
-            <th colspan="2" style="text-align:center; padding:10px;">Send a Message</th>
+            <th colspan="2">Send a Message</th>
         </tr>
 
         <tr>
-            <td style="width:110px;">Name:</td>
-            <td><input type="text" style="width:100%;" /></td>
+            <td>Name:</td>
+            <td><input type="text" /></td>
         </tr>
 
         <tr>
             <td>Email:</td>
-            <td><input type="email" style="width:100%;" /></td>
+            <td><input type="email" /></td>
         </tr>
 
         <tr>
             <td>Phone:</td>
-            <td><input type="tel" style="width:100%;" /></td>
+            <td><input type="tel" /></td>
         </tr>
 
         <tr>
             <td>Subject:</td>
-            <td><input type="text" style="width:100%;" /></td>
+            <td><input type="text" /></td>
         </tr>
 
         <tr>
             <td>Message:</td>
-            <td>
-                <textarea rows="4" style="width:100%;"></textarea>
-            </td>
+            <td><textarea rows="4"></textarea></td>
         </tr>
 
         <tr>
-            <td colspan="2" style="text-align:center;">
-                <!-- no JS yet; Step 17 will add the alert via DevTools -->
+            <td colspan="2" class="actions">
                 <button id="sendBtn" type="button">Send Message</button>
             </td>
         </tr>
     </table>
 </body>
+
 
 </html>
