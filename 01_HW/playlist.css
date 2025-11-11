@@ -70,3 +70,12 @@ img {
     /* dark blue text */
     font-weight: bold;
 }
+
+
+.accentRow {
+    background-color: #d6eaff;
+    /* soft blue background */
+    color: #004080;
+    /* darker blue text */
+    font-weight: bold;
+}
