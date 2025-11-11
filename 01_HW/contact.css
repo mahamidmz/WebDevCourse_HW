@@ -83,3 +83,9 @@ h2 {
 .contact-card button:hover {
     background: #004a99;
 }
+
+/* Make merged label look centered vertically */
+.contact-card td[rowspan] {
+    vertical-align: middle;
+    font-weight: 600;
+}
