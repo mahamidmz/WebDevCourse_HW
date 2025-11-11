@@ -79,3 +79,15 @@ img {
     /* darker blue text */
     font-weight: bold;
 }
+
+a {
+    text-decoration: none;
+    color: #0a58ca;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #004a99;
+    text-decoration: underline;
+}
